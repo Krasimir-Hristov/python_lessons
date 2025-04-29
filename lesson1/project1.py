@@ -15,7 +15,7 @@ if should_we_play == "y" or should_we_play == "yes":
         print("You found a treasure!")
 
         take = input("Do you want to take it? (yes/no) ").lower()
-    
+
         if take == "y" or take == "yes":
 
             print("You die from poison")
